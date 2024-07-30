@@ -1,0 +1,98 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.first{
+  display: flex;
+  justify-content: flex-start;
+
+}
+.icon{
+
+}
+.paragraph{
+  font-size: 12px;
+  max-width: 210px;
+  color: #aaaaaa;
+  line-height: 19px;
+}
+
+.star{
+  max-width: 10px;
+}
+
+.star-wrap{
+  display: flex;
+  align-items: flex-start;
+
+}
+.title{
+  display: flex;
+  flex-direction: column;
+  gap:20px;
+  padding-bottom: 13px;
+
+}
+
+.con{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+.second{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding-left: 13px;
+}
+s{
+  font-size: 14px;
+  color: #aaaaaa;
+}
+.information{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+}
+.laptop-wrap{
+  max-width: 300px;
+  padding: 26px ;
+  display: flex;
+  flex-direction: column;
+  gap:60px;
+}
+.icons{
+  display: flex;
+  justify-content: space-between;
+  padding-top: 27px;
+}
+.p-laptop{
+  padding: 15px 0;
+  font-size: 16px;
+  color: #19c6f6;
+}
+.size{
+  width: 30px;
+}
+.laptop-wrapper{
+  display: flex;
+  justify-content: center;
+  padding-top: 40px;
+}
